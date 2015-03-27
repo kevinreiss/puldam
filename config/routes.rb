@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  mount BrowseEverything::Engine => '/browse'
   
   blacklight_for :catalog
   devise_for :users
