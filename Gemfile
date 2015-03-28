@@ -40,6 +40,7 @@ group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
   gem 'pry-byebug'
+  gem 'pry-rails'
 
   # Access an IRB console on exception pages or by using <%= console %> in views
   gem 'web-console', '~> 2.0'
@@ -52,7 +53,11 @@ end
 gem 'rsolr', '~> 1.0.6'
 gem 'devise'
 gem 'devise-guests', '~> 0.3'
+gem "poltergeist"
+
 group :development, :test do
   gem 'rspec-rails'
   gem 'jettywrapper'
+  gem "capybara", '~> 2.4'
+  gem 'factory_girl'
 end
