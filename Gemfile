@@ -36,6 +36,11 @@ gem 'kaminari', github: 'jcoyne/kaminari', branch: 'sufia'  # required to handle
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+# Rails for assets for js/css utils via bower
+# source 'https://rails-assets.org' do
+#   gem 'rails-assets-modernizr'
+# end
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'

@@ -1,0 +1,16 @@
+// Non-SVG logo
+.logo-no-svg {
+  display: inline-block;
+}
+.logo-svg {
+  display: none;
+}
+// SVG logo 
+.svg {
+    .logo-no-svg {
+        display: none;
+    }
+    .logo-svg {
+        display: inline-block;
+    }
+}

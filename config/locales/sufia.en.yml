@@ -127,7 +127,7 @@ en:
           tag: "could not be updated. You do not have sufficient privileges to edit them."
         title:  "Files failed"
         subject: "Batch upload permission denied"
-    background_attribution: "Background image courtesy of Penn State University"
+    background_attribution: ""
     bread_crumb:
       search_results: "Back to search results"
     visibility:
@@ -166,7 +166,7 @@ en:
     generic_file:
       browse_view: "Browse View"
     footer:
-      copyright_html: "<strong>Copyright &copy; 2015 Project Hydra</strong> Licensed under the Apache License, Version 2.0"
+      copyright_html: "Copyright &copy; 2015 Trustees of Princeton University</strong>."
 
   simple_form:
     labels:
