@@ -1,3 +1,5 @@
+@import 'settings';
+
 body {
   margin: 0;
   padding: 0 !important;
@@ -55,9 +57,9 @@ button {
 }
 
 #footer {
-  background: $blue-dark;
+  background: $gray-light;
   clear: both;
-  color: $classic-white;
+  color: $basic-black;
   margin-top: 2em;
   padding: 1em;
   min-height: 4em;
@@ -76,7 +78,7 @@ label.disabled {
 
 @media only screen and (min-width: 768px) {
   #masthead {
-    min-height: 8em;
+    min-height: 6.5em;
   }
   #home_header,
   #home_header div.home_call_action,

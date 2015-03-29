@@ -12,7 +12,13 @@
  *
  *= require_tree .
  *= require_self
- *= require sufia
  */
 
- @import 'components/branding';
+@import 'components/branding';
+@import 'sufia';
+/*
+@import 'sufia/settings';
+@import 'sufia/styles';
+@import 'sufia/home-page';
+@import 'sufia/header';
+*/
